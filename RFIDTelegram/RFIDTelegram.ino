@@ -4,11 +4,11 @@
 #include <WiFiClientSecure.h>
 #include <WiFi.h>
 
-#define BOTtoken "7442722529:AAHPq9MROvJ4fl1Z2JVtbO_4PsNdWmijdTI"
-#define CHAT_ID "5632619913"
+#define BOTtoken "TOKEN_API"
+#define CHAT_ID "ID"
 
-const char* ssid = "Eren";
-const char* password = "eren723134";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 WiFiClientSecure client;
 DeneyapTelegram telegram;
